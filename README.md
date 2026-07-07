@@ -4,7 +4,8 @@
 
 ## Features
 
-- **FreeRTOS Dual-Core Architecture:** - **Core 0:** Dedicated exclusively to Bluetooth Classic communication, handling incoming serial data and state machine logic without blocking the hardware.
+- **FreeRTOS Dual-Core Architecture:** 
+  - **Core 0:** Dedicated exclusively to Bluetooth Classic communication, handling incoming serial data and state machine logic without blocking the hardware.
   - **Core 1:** Manages real-time PWM signal generation and executing non-blocking LED animations.
 - **Fail-Safe State Management:** The firmware ensures the hardware boots in a safe `OFF` state and perfectly synchronizes with the mobile app upon connection, recovering the last known RGB values.
 - **Dynamic Lighting Modes:**
