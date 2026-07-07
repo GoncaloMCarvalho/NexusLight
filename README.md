@@ -48,4 +48,11 @@ To build and flash the project:
 
 ## Mobile Application
 
-This firmware is paired with a custom Android application built using MIT App Inventor. The app logic mirrors the C++ state machine, ensuring that UI elements (sliders, buttons) are always correctly locked, unlocked, or synchronized with the ESP32's active mode.
+The user interface was built using **MIT App Inventor**. The application's internal state machine mirrors the C++ logic to ensure complete synchronization and prevent out-of-sync states between the client and the hardware.
+
+### How to Import the Project:
+1. Navigate to the `mobile_app/` directory in this repository and download the `NexusLight.aia` file.
+2. Open [MIT App Inventor](http://appinventor.mit.edu/).
+3. Click on **Projects** -> **Import project (.aia) from my computer** and select the downloaded file.
+
+*(Optional)* If you just want to install and run the app directly on your Android device without editing the blocks, you can download and install the pre-compiled `NexusLight.apk` located in the same folder.
